@@ -83,7 +83,7 @@ header .row .col-md-3 {
 }
 
 header .row .col-md-3 img {
-    width: 150%;
+    width: 100%;
 }
 
 header .container .col-md-9 h6 {
@@ -242,7 +242,7 @@ header .container .col-md-9 button {
 }
 
 .section-3 {
-    height: 70vmin;
+    height: 55vmin;
     margin-top: 15vmin;
     background: var(--bggradient);
 }
@@ -250,12 +250,100 @@ header .container .col-md-9 button {
 .section-3 .col-md-12>h1 {
     padding: 2em 0 0.5em 0;
     color: whitesmoke;
-    font-size: 4vmin;
+    font-size: 5vmin;
 }
 
 .section-3 .col-md-12>p {
     padding: 0 4em;
     padding-bottom: 2em;
     color: var(--light-gray);
-    font-size: 2.5vmin;
+    font-size: 2.7vmin;
+}
+
+.section-3 .desktop {
+    background: white;
+    display: inline-block;
+    border-radius: 3em;
+    padding: 2vmin 4.5vmin;
+    margin: 1em;
+}
+
+.section-3 .desktop h3 {
+    font-size: 3vmin;
+}
+
+.section-3 .desktop p {
+    font-size: 2vmin;
+}
+
+.section-4 .container h1 {
+    font-size: 5vmin;
+    padding-top: 14vmin;
+}
+
+.section-4 .team {
+    padding: 10vmin 4vmin;
+}
+
+.section-4 .card {
+    width: 22rem;
+    margin-top: 8vmin;
+}
+
+.section-4 .card .card-text {
+    padding: 0.5em;
+}
+
+.section-4 .card .card-body>a {
+    font-size: 1.5em;
+}
+
+.section-4 .carousel-item {
+    padding-left: 3rem;
+}
+
+.border-radius {
+    border-radius: 340px;
+    width: 60%;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer p>span {
+    color: #ff512f;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+}
+
+footer .column i {
+    color: #dd2476;
+}
+
+footer .column i+i {
+    padding: 0 0.5em;
+}
+
+/* Sticky class */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
 }
